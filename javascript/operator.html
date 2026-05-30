@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연산자</title>
+</head>
+<body>
+    <h2>연산자</h2>
+    <script>
+        console.log(10 == 10); //true
+        console.log(10 == '10'); //true
+        console.log(10 === 10); //true
+        console.log(10 === '10'); //false
+        console.log(10 !== '10'); //true
+
+        console.log("===================================");
+
+        //논리 연산자 - &&(AND), ||(OR), !(NOT)
+        let a = 12;
+        let b = 22;
+        console.log(a < b && a === 11); //false
+        console.log(a < b || a !== 12); //true
+        console.log(!(a>b)); //true
+
+        //삼항(조건) 연산자 - 조건 ? 참 : 거짓
+        let num = 7;
+        let result;
+
+        result = (num % 2 === 0) ? "짝수" : "홀수";
+        console.log("결과:", result);
+        console.log(`결과: ${result}`);
+        
+    </script>
+</body>
+</html>

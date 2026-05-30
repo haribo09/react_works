@@ -1,0 +1,24 @@
+.container {
+    width: 800px; /* 너비 */
+    /* 바깥여백 설정: 위, 아래 - 0px, 왼쪽, 오른쪽: 자동여백 설정 */
+    margin: 0 auto;
+}
+/* 16진수 색상표기: f-255, 00-0 */
+h2 {
+    color: #ff0000
+}
+/* 선택자 - id인 경우는 #을 앞에 붙여줌 */
+p {
+    line-height: 2;/* 줄간격 - 2(2배) */
+    font-family: 바탕체;
+}
+#p1 {
+    background-color: greenyellow;
+}
+#p2 {
+    background-color: yellow;
+}
+.accent {
+    color: #ff0000;
+    font-weight: bold;
+}
