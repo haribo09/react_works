@@ -11,6 +11,7 @@ import InputValue from './components/InputValue'
 import Test02 from './practice/Test02'
 import Dog from './components/Dog'
 import Dog2 from './components/Dog2'
+import Drinks2 from './components/Drinks2'
 
 function MyButton() {
   return (
@@ -34,14 +35,14 @@ function App() {
         <Main />
         <Footer /> */}
         {/* props 연습 */}
-        <Dog
+        {/* <Dog
           breed="말티즈"
           age={2}
         />
         <Dog2 
           breed="진돗개"
           age={5}
-        />
+        /> */}
       </section>
       <section>
         {/* <h2>JSX 문법 배우기</h2> */}
@@ -49,6 +50,7 @@ function App() {
         {/* <Example03 /> */}
         {/* <InputValue /> */}
         {/* <Test02 /> */}
+        <Drinks2 />
       </section>
     </>
   )
