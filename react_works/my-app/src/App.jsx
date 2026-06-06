@@ -11,7 +11,8 @@ import InputValue from './components/InputValue'
 import Test02 from './practice/Test02'
 import Dog from './components/Dog'
 import Dog2 from './components/Dog2'
-import Drinks2 from './components/Drinks2'
+import Box from './children/Box'
+import Profile from './children/Profile'
 
 function MyButton() {
   return (
@@ -43,6 +44,11 @@ function App() {
           breed="진돗개"
           age={5}
         /> */}
+        {/* <Box>
+          <h3>박스 안의 내용</h3>
+          <p>이것은 Box 컴포넌트 안에 있는 내용입니다.</p>
+        </Box> */}
+        <Profile />
       </section>
       <section>
         {/* <h2>JSX 문법 배우기</h2> */}
@@ -50,7 +56,6 @@ function App() {
         {/* <Example03 /> */}
         {/* <InputValue /> */}
         {/* <Test02 /> */}
-        <Drinks2 />
       </section>
     </>
   )

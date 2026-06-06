@@ -1,0 +1,17 @@
+.app {
+  margin: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px
+}
+
+ul li {
+  margin: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}

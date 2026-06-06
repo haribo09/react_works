@@ -1,4 +1,5 @@
 import { useState } from "react";
+import DrinkList from "./DrinkList";
 
 const Drinks2 = () => {
     //음료 리스트 상태 관리 - 빈 리스트(초기화)
@@ -36,11 +37,13 @@ const Drinks2 = () => {
             {/* <p>음료: {inputValue}</p> */}
             <button onClick={addDrink}>음료 추가</button>
             {/* 음료 목록 */}
-            <ul>
+            {/* DrinkList 컴포넌트 연결 */}
+            <DrinkList drinks={drinks}/>
+            {/* <ul>
                 {drinks.map((drink, index) => (
                     <li key={index}>{drink}</li>
                 ))}
-            </ul>
+            </ul> */}
         </div>
     )
 }
